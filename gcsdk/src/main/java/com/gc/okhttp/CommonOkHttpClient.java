@@ -3,18 +3,13 @@ package com.gc.okhttp;
 
 import com.gc.okhttp.https.HttpsUtils;
 import com.gc.okhttp.response.CommonJsonCallback;
-
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 import okhttp3.Call;
-import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.Response;
 
 
 /**
